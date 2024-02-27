@@ -20,10 +20,10 @@ describe('LocationForm', () => {
     ];
     const location = {
       id: 1,
-      countryId: 1,
-      name: 'Buenos Aires',
-      latitude: '-34.61315',
-      longitude: '-58.37723',
+      countryId: 2,
+      name: 'París',
+      latitude: '48.8584',
+      longitude: '2.2945',
     };
     render(<LocationForm countries={countries} location={location} />);
 
