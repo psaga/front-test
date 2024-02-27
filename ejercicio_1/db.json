@@ -1,0 +1,53 @@
+{
+  "countries": [
+      {
+          "id": 1,
+          "name": "Argentina"
+      },
+      {
+          "name": "Brasil",
+          "id": 2
+      },
+      {
+          "id": 3,
+          "name": "Estados Unidos"
+      }
+  ],
+  "locations": [
+      {
+          "id": 1,
+          "countryId": 3,
+          "name": "DeKalb",
+          "latitude": "0.8282",
+          "longitude": "-176.3506"
+      },
+      {
+          "id": 2,
+          "countryId": 3,
+          "name": "Spring Valley",
+          "latitude": "78.9203",
+          "longitude": "85.3284"
+      },
+      {
+          "id": 3,
+          "countryId": 3,
+          "name": "Rancho Cordova",
+          "latitude": "-87.1423",
+          "longitude": "-40.8860"
+      },
+      {
+          "id": 4,
+          "countryId": 3,
+          "name": "Methuen Town",
+          "latitude": "-86.7487",
+          "longitude": "-148.9767"
+      },
+      {
+          "id": 5,
+          "countryId": 3,
+          "name": "Anaheim",
+          "latitude": "-45.0473",
+          "longitude": "-16.4609"
+      }
+  ]
+}

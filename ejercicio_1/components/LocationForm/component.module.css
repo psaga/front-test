@@ -1,0 +1,43 @@
+.form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.fieldName {
+  font-size: 12px;
+}
+
+.formField {
+  border-radius: 10px;
+  padding: 0 10px;
+  height: 40px;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.formField:focus-visible {
+  outline: none;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: #ff0000;
+}
+
+.submit {
+  width: 80px;
+  background-color: #007bff;
+  color: #ffffff;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
