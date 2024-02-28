@@ -4,7 +4,7 @@ import { LocationForm } from '@/components/LocationForm/LocationForm';
 import { Country } from '@/utils/types';
 
 export default async function Destination() {
-  const countries = await fetcher<Country[]>('countries', { next: { tags: ['countries'] } });
+  const countries = await fetcher<Country[]>('countries');
 
   return <LocationForm countries={countries} />;
 }

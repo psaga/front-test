@@ -27,9 +27,7 @@ export const DestinationsList = ({ locations }: DestionationsListProps) => {
           ))}
         </div>
       ) : (
-        <>
-          <div aria-label="No destinations available">There are no destinations available :(</div>
-        </>
+        <div aria-label="No destinations available">There are no destinations available :(</div>
       )}
     </div>
   );
